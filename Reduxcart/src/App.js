@@ -9,6 +9,7 @@ import { sendCartData } from "./store/cart-slice";
 
 let isInitial = true;
 
+
 function App() {
   const dispatch = useDispatch();
   const showCart = useSelector((state) => state.ui.cartIsVisible);
